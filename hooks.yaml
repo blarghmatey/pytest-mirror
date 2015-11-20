@@ -1,0 +1,6 @@
+- id: pytest
+  name: PyTest Runner
+  description: This hook uses py.test to run Python unit tests
+  entry: py.test
+  language: system
+  files: \.py$
