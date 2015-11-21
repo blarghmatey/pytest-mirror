@@ -1,6 +1,6 @@
 - id: pytest
   name: PyTest Runner
   description: This hook uses py.test to run Python unit tests
-  entry: py.test
-  language: system
+  entry: pre_commit_hooks/pytest.sh
+  language: script
   files: \.py$
